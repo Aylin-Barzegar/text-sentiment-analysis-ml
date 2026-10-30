@@ -1,0 +1,17 @@
+# Dataset is a separate input, not included with this repository.
+/data/*
+!/data/.gitkeep
+
+# Trained models, metrics, figures are generated locally.
+/artifacts/
+*.joblib
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
